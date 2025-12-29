@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 138851025}
   - component: {fileID: 138851024}
   m_Layer: 0
-  m_Name: Hospital_Layout
+  m_Name: Hospital_Wall_Layout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18224,7 +18224,7 @@ GameObject:
   - component: {fileID: 1012575783}
   - component: {fileID: 1012575782}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Hospital_Floor_Layout
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -19467,12 +19467,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1012575781}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 105.3, y: 0, z: 35.8}
-  m_LocalScale: {x: 45.966152, y: 14.941302, z: 21.84433}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 42.886757, y: 68.44639, z: 27.583414}
+  m_LocalScale: {x: 45.96614, y: 14.941302, z: 21.84433}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1847679523}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1765869553
 Mesh:
@@ -19667,7 +19667,8 @@ Transform:
   m_LocalPosition: {x: 62.71324, y: -68.44639, z: 8.216585}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1012575787}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
@@ -19679,4 +19680,3 @@ SceneRoots:
   - {fileID: 832575519}
   - {fileID: 731664274}
   - {fileID: 1847679523}
-  - {fileID: 1012575787}
